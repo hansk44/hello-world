@@ -4,7 +4,7 @@
   
   body {
     margin: 20;
-    min-width: 992px;
+    min-width: 850px;
     font-family: "Helvetica";
   }
   
@@ -97,4 +97,21 @@
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
+  }
+
+
+  p{
+    background-color: aqua;
+    font-size: x-large;
+    display: inline;
+  }
+
+  p:hover{
+    background-color:blueviolet;
+    cursor: pointer;
+    font-size: xx-large;
+  }
+
+  .ptag{
+    text-align: center;
   }
