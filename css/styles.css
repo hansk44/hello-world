@@ -8,39 +8,42 @@
     font-family: "Helvetica";
   }
   
-  /* navbar */
-  .navbar{
-    height: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .navbar #logo {
-    line-height: 60px;
-  }
-  .navbar #logo img{
-    vertical-align: middle;
-  }
-  
-  .navbar #menu {
-    float: right;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    
-  }
-  .navbar #menu li {
-    float:left;
-    margin-left: 50px;
-    line-height: 60px;
-  }
-  
-  .navbar #menu li a {
-    text-decoration: none;
-    color: #545454 ;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
+/* nav 영역 css 적용 */
+ nav {
+   height: 60px;
+   padding-left: 30px;
+   padding-right: 30px;
+ }
+
+ nav #logo {
+   line-height: 60px;
+ }
+
+ nav #logo img {
+   vertical-align: middle;
+ }
+
+ nav #menu {
+   float: right;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ nav #menu li {
+   float: left;
+   margin-left: 50px;
+   line-height: 60px;
+ }
+
+ nav #menu li a {
+   text-decoration: none;
+   color: #535c51;
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+
   /* hero header */
   .hero-header{
     height: 300px;
